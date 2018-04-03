@@ -101,7 +101,7 @@ int main(int argv, char *args) {
 	if(argv == 2){
 
 		printf("Enter sudoku line by line as follows:\n");
-		for(k = 0; k < 8; k++){
+		for(k = 0; k < 9; k++){
 		printf("%d %d %d %d %d %d %d %d %d\n", 	sudoku[k][0], sudoku[k][1], sudoku[k][2], sudoku[k][3],
 																						sudoku[k][4], sudoku[k][5], sudoku[k][6], sudoku[k][7],
 																						sudoku[k][8]
@@ -109,7 +109,7 @@ int main(int argv, char *args) {
 		}
 		printf("\n");
 
-		for(k = 0; k < 8; k++){
+		for(k = 0; k < 9; k++){
 		scanf("%d %d %d %d %d %d %d %d %d\n", 	&sudoku[k][0], &sudoku[k][1], &sudoku[k][2], &sudoku[k][3],
 																						&sudoku[k][4], &sudoku[k][5], &sudoku[k][6], &sudoku[k][7],
 																						&sudoku[k][8]
