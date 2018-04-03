@@ -1,4 +1,4 @@
-obj-m+=listing-task.o
+obj-m+=listing-tasks.o
 all:
 	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules
 clean:
